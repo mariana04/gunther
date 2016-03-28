@@ -1,0 +1,42 @@
+body {
+  background-image: url("backfon.jpg");
+}
+
+.mailform {
+width: 300px;
+font-family: Brush Script MT;
+color: #DAA520;
+border: 1px solid #AAA;
+padding:10px;
+
+}
+.mailformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.mailformmessage {
+text-align:center;
+padding-bottom:10px;
+resize: none;
+}
+.mailform td {
+padding:4px;
+font-size:12px;
+}
+.mailform p {
+padding:4px;
+}
+.mailform label {
+padding:4px;
+}
+.mailform label {
+padding-right:10px
+}
+.required {
+font-weight:bold;
+
+}
+

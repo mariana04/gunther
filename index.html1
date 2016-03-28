@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+   	 <title> G&uumlnther is the best! </title>
+   	 <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+<!--<script type="text/javascript" src="animation.js"></script> -->
+    </head>
+    <body>	
+<div id="gunther"></div>
+<div><p>G&uumlnther fan website</p></div>
+<table>
+
+<tr>
+<td style="width: 33%">  </td>
+
+<td style="width: 34%"><center> 
+
+<img src="picindex1.jpg"; width="700px"; height="500px"; /> 
+</center> </td>
+
+<td style="width: 33%"><iframe src="/contact/mail_form.html" width="308" height="445" align="right">
+   
+ </iframe></td></tr>
+</table>
+
+<div>
+<div>
+<center><p> Click <a href="http://gunther.testonlywebsite.me/gunther.html">here</a> to see more G&uumlnther! </p> <center>
+</div> </div>
+    </body>
+
+</html>

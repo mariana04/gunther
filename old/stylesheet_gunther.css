@@ -1,0 +1,28 @@
+body {
+  background-image: url("backfon.jpg");
+}
+
+td {empty-cells:show;}
+
+p
+{
+        font-family: Arial;
+	font-weight: bold;
+        font-size: 1.2em;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+        padding-right: 500px;
+        padding-left: 500px;
+	color: white;
+
+
+}
+
+img {
+
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}

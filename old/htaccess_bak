@@ -1,0 +1,27 @@
+RewriteEngine on
+order deny,allow
+deny from all
+allow from 93.76.242.148
+allow from 193.111.60.5
+RewriteCond %{HTTP_REFERER} !^http://gunther.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://gunther.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testkul.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testkul.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testoptim.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://testoptim.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.gunther.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.gunther.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testkul.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testkul.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testoptim.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.testoptim.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.xn--travel----12a9aw.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.xn--travel----12a9aw.testonlywebsite.me$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://xn--travel----12a9aw.testonlywebsite.me/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://xn--travel----12a9aw.testonlywebsite.me$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

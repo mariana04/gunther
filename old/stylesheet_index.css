@@ -1,0 +1,79 @@
+body {
+ background-image: url("backfon.jpg");
+}
+
+img {
+	width:700px;
+	height:500px;
+}
+
+
+@keyframes moveX
+{
+    0%   {background-position: 10px;}
+    25%   {background-position: 100px;}
+    50%   {background-position: 20px;}
+    75%   {background-position: 3000px;}
+    100% {background-position: 4000;}
+}
+
+#gunther
+{
+    -webkit-animation: moveX 2s linear 1s infinite;
+    animation: moveX 2s linear 1s infinite;
+    background: url("index2.gif") no-repeat;
+    height: 220px;
+}
+
+
+div p
+{
+        font-family: Brush Script MT;
+	font-weight: bold;
+        font-size: 5em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #DAA520;
+
+}
+
+div div p
+{
+        font-family: Arial;
+	font-weight: bold;
+        font-size: 1em;
+	color: red;
+}
+
+a
+{
+color: red;
+}
+
+td {empty-cells:show;}
+
+p
+{
+        font-family: Arial;
+	font-weight: bold;
+        font-size: 1.2em;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+        padding-right: 500px;
+        padding-left: 500px;
+	color: white;
+
+
+}
+info{
+
+img {
+
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+}

@@ -1,0 +1,55 @@
+body {
+ background-image: url("backfon.jpg");
+}
+
+img {
+	width:700px;
+	height:500px;
+}
+
+@keyframes moveX
+{
+    0%   {background-position: 175px 0;}
+    100% {background-position: 0 0;}
+}
+
+#gunther
+{
+    -webkit-animation: moveX 2s linear 1s infinite;
+    animation: moveX 2s linear 1s infinite;
+    background: url('http://gunther.testonlywebsite.me/index2.gif') repeat-x;
+    height: 220px;
+}
+	
+#act-gif1{	
+	-webkit-animation: leftRight1 5s linear infinite;
+	-moz-animation: leftRight1 5s linear infinite;
+	-o-animation: leftRight1 5s linear infinite;
+	-ms-animation: leftRight1 5s linear infinite;
+	animation: leftRight1 5s linear infinite;	
+}
+
+div p
+{
+        font-family: Brush Script MT;
+	font-weight: bold;
+        font-size: 5em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #DAA520;
+
+}
+
+div div p
+{
+        font-family: Arial;
+	font-weight: bold;
+        font-size: 1em;
+	color: red;
+}
+
+a
+{
+color: red;
+}
